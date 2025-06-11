@@ -1,0 +1,27 @@
+{
+  "name": "@fltools/umi-plugins",
+  "version": "0.0.1",
+  "description": "Custom plugins for Umi 4",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "build": "father build",
+    "build:watch": "father dev",
+    "docs:build": "dumi build",
+    "doctor": "father doctor",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "authors": [
+    "njulf04@163.com"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@umijs/utils": "^4.0.0",
+    "umi": "^4.0.0"
+  }
+}
