@@ -2,6 +2,8 @@
   "name": "@fltools/umi-plugins",
   "version": "1.0.0",
   "description": "Custom plugins for Umi 4",
+  "author": "",
+  "repository": "git@github.com:flgame/fltools.git",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,9 +15,6 @@
     "doctor": "father doctor",
     "prepublishOnly": "father doctor && npm run build"
   },
-  "authors": [
-    "njulf04@163.com"
-  ],
   "license": "MIT",
   "files": [
     "dist"
